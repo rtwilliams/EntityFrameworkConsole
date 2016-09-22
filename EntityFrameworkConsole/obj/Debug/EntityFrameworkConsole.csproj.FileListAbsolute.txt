@@ -1,0 +1,15 @@
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.exe.config
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.exe
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.pdb
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.dll
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.xml
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.csprojResolveAssemblyReference.cache
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.Migrations.FirstCommit.resources
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.csproj.GenerateResource.Cache
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.exe
+C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.pdb
+C:\Git\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.exe.config
+C:\Git\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.exe
+C:\Git\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.pdb
