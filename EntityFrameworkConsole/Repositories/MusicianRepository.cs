@@ -15,7 +15,7 @@ namespace EntityFrameworkConsole.Repositories
             EntityContext = entityContext;
         }
 
-        public IEnumerable<Musician> GetAllMusicians()
+        public List<Musician> GetAllMusicians()
         {
             return EntityContext.Musicians.Include(x => x.Band).ToList();
         }

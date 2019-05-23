@@ -5,7 +5,7 @@ namespace EntityFrameworkConsole.Interfaces
 {
     public interface IBandRepository
     {
-        IEnumerable<Band> GetAllBands();
+        List<Band> GetAllBands();
         Band GetBandById(int id);
         void Add(Band band);
         void Edit(Band band);

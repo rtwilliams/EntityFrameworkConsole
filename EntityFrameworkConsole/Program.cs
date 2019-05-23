@@ -49,6 +49,21 @@ namespace EntityFrameworkConsole
 
         static void SeedDatabase()
         {
+            Console.WriteLine("Attempting to seed database...");
+
+            // check if data exists
+            using (var db = new EntityDbContext())
+            {
+                var musicianRepos = new MusicianRepository(db);
+                if (musicianRepos.GetAllMusicians().Count > 0)
+                {
+                    Console.WriteLine("Data Exists! Retrieving data... ");
+                    Console.WriteLine("");
+                    return;
+                }
+            }
+
+            // Seeding database - make sure the App.config connection string is targeting a valid SQL Server instance.
             Console.WriteLine("Seeding database... ");
             var blackSabbath = new Band() { Name = "Black Sabbath" };
             var revolution = new Band() { Name = "The Revolution" };
@@ -71,6 +86,7 @@ namespace EntityFrameworkConsole
                 musicianRepos.Add(moby);
                 musicianRepos.Save();
                 Console.WriteLine("Musicians Added!");
+                Console.WriteLine("");
             }
         }
     }
