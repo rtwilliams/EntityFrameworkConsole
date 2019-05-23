@@ -13,3 +13,17 @@ C:\Bob\TestConsoleApp\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\En
 C:\Git\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.exe.config
 C:\Git\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.exe
 C:\Git\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.pdb
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.exe.config
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.exe
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFrameworkConsole.pdb
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.dll
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.xml
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.csprojAssemblyReference.cache
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.Migrations.FirstCommit.resources
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.csproj.GenerateResource.cache
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.csproj.CoreCompileInputs.cache
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.csproj.CopyComplete
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.exe
+C:\Users\bobw2\Solutions\EntityFrameworkConsole\EntityFrameworkConsole\obj\Debug\EntityFrameworkConsole.pdb

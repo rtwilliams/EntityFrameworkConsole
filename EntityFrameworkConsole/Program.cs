@@ -7,7 +7,7 @@ namespace EntityFrameworkConsole
     {
         static void Main(string[] args)
         {
-            //SeedDatabase();
+            SeedDatabase();
             PrintBandsAndMucisians();
             Console.WriteLine("");
             PrintMusicians();
@@ -49,6 +49,7 @@ namespace EntityFrameworkConsole
 
         static void SeedDatabase()
         {
+            Console.WriteLine("Seeding database... ");
             var blackSabbath = new Band() { Name = "Black Sabbath" };
             var revolution = new Band() { Name = "The Revolution" };
 
