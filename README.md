@@ -7,3 +7,5 @@ Repository interfaces. A generic Repository interface could be created and imple
 
 Again, Dependency Injection is used to pass the context (EntityDbContext) to Repositories. Therefore repositories act
 as wrappers to the DbContext, and thus can return data in more useful forms.
+
+To run, make sure the App.config BandDB connection string is targeting a valid SQL Server instance. 
