@@ -1,51 +1,17 @@
-﻿
+﻿using EntityFrameworkConsole.Models;
 using System.Collections.Generic;
-using System.Linq;
-using EntityFrameworkConsole.Interfaces;
 using System.Data.Entity;
+using System.Linq;
 
 namespace EntityFrameworkConsole.Repositories
 {
-    public class BandRepository : IBandRepository
+    public class BandRepository : GenericRepository<Band>
     {
-        private EntityDbContext EntityContext { get; set; }
+        public BandRepository(DB_Bands entityContext) : base(entityContext) { }
 
-        public BandRepository(EntityDbContext entityContext)
+        public override List<Band> GetAll()
         {
-            EntityContext = entityContext;
-        }
-
-        public List<Band> GetAllBands()
-        {
-            return EntityContext.Bands.Include(b => b.Musicians).ToList();
-        }
-
-        public Band GetBandById(int id)
-        {
-            return GetAllBands().FirstOrDefault(i => i.BandId == id);
-        }
-
-        public void Add(Band band)
-        {
-            EntityContext.Bands.Add(band);
-        }
-
-        public void Edit(Band band)
-        {
-            var bandEntity = GetBandById(band.BandId);
-            if (bandEntity == null) return;
-            bandEntity.Name = band.Name;
-            bandEntity.Musicians = band.Musicians;
-        }
-
-        public void Delete(Band band)
-        {
-            EntityContext.Bands.Remove(band);
-        }
-
-        public void Save()
-        {
-            EntityContext.SaveChanges();
+            return Table.Include(x => x.Musicians).ToList();
         }
     }
 }

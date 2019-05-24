@@ -1,48 +1,17 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using EntityFrameworkConsole.Interfaces;
 using System.Data.Entity;
+using EntityFrameworkConsole.Models;
 
 namespace EntityFrameworkConsole.Repositories
 {
-    public class MusicianRepository : IMusicianRepository
+    public class MusicianRepository : GenericRepository<Musician>
     {
-        private EntityDbContext EntityContext { get; set; }
+        public MusicianRepository(DB_Bands entityContext) : base(entityContext) { }
 
-        public MusicianRepository(EntityDbContext entityContext)
+        public override List<Musician> GetAll()
         {
-            EntityContext = entityContext;
-        }
-
-        public List<Musician> GetAllMusicians()
-        {
-            return EntityContext.Musicians.Include(x => x.Band).ToList();
-        }
-
-        public Musician GetMusicianById(int id)
-        {
-            return GetAllMusicians().FirstOrDefault(i => i.MusicianId == id);
-        }
-
-        public void Add(Musician musician)
-        {
-            EntityContext.Musicians.Add(musician);
-        }
-
-        public void Edit(Musician musician)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Delete(Musician musician)
-        {
-            EntityContext.Musicians.Remove(musician);
-        }
-
-        public void Save()
-        {
-            EntityContext.SaveChanges();
+            return Table.Include(x => x.Band).ToList();
         }
     }
 }
